@@ -1,3 +1,0 @@
-# PythonSolutions
-
-  1.
