@@ -4,7 +4,7 @@
 ```
 git submodule add [ git url ] 
 ```
-## Cloning a Project with Submodules
+## After Cloning a Repo having Submodules
 
 ```
 git clone [ git url ]
