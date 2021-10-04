@@ -1,0 +1,52 @@
+Fifth file added in github local repo.
+
+Let's talk about Error we face.
+
+1.  GitHub online repo has one more file added comapared to this local repo.
+       
+       If you `git push` before `git pull` command at this stage.
+       It will generate error as 
+
+$ git push
+To https://github.com/iamkrvikash/Git_Test.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/iamkrvikash/Git_Test.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+2.  To sort this out.One has to Make the branch even by `git pull` then `git push` to push the new files.
+
+3.  But let say you have commited as in this case before `git pull` command.
+       After `git pull` Message will pop as 
+
+
+Merge branch 'master' of https://github.com/iamkrvikash/Git_Test into master
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+~
+
+To solve this issue, Enter a message. 
+It comes as like vim editor,
+To enter any message u have to    Press `i`to go to insert mode. Here u can type as u like.
+                                  After writing message, Enter `Esc` button. Then enter `:wq` to save n quit. 
+
+Then that repo will be pulled showing as below.
+
+From https://github.com/iamkrvikash/Git_Test
+   e7fcb7c..97872d2  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ test4.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test4.txt
+
+4.  Now your work is done.
+       If new changes has to be done. `git commmit` and `git push`.
+
+Happy Git!! 
