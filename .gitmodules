@@ -1,3 +1,6 @@
 [submodule "LinuxBash"]
 	path = LinuxBash
 	url = https://github.com/iamkrvikash/LinuxBash.git
+[submodule "iamkrvikash"]
+	path = iamkrvikash
+	url = https://github.com/iamkrvikash/iamkrvikash
