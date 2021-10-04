@@ -1,3 +1,0 @@
-Hi There,
-Made some changes in the second line of
-second test file.
