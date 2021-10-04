@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+FRUITS=" Mango Apple Banana"
+for fruit in $FRUITS; do echo "The fruit is : $fruit" 
+done
+
+FRUITZ=" Mango Apple Banana"
+echo -n "The fruit is : "
+for fruit in $FRUITZ; do echo -n "$fruit " ;done

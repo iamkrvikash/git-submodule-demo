@@ -1,0 +1,70 @@
+# Commands 
+
+1. bash --version
+2. touch john.txt
+3. touch mike.txt jenna.txt
+4. ls
+5. ls -al
+6. which touch
+7. echo
+8. read NAME
+9. echo $NAME
+10. mkdir
+11. mv
+12. echo $(pwd)
+13. cp
+14. let #arithmetic operations
+15. expr
+16. echo $? # prints the status of last command executed
+17. test = [ #alias of test
+18. if [ condition statements ]
+    then
+         # if code here
+    else
+         # else code here
+    fi
+19. echo $RANDOM
+20. echo $(seq 0 2 11)  #list generation 0 2 4 6 8 10 
+21. bash variable.sh Mango Apple Banana
+22. grep -i "word" file.txt
+          -i // case insensitive
+	  -c //count
+	  -w //whole word
+	  -l //list the files
+	  -o //only the matched pattern
+	  -n //word with line numbers
+	  -v //inverted answer
+	  -e "word" -e "word2" -e "word3" text.txt
+23. grep "^unix" text.txt //start of string
+         "end" text.txt   //end with string
+24. for iterator
+    do
+       #Perform action
+    done
+25. while [ ]
+    do
+      #perform action
+    done
+26.until []     #here conditon must evaluate to true to terminate
+   do
+     #perform action
+   done
+27.ls *.txt   #pattern matching
+28. case STRING in
+      test1)
+       //statements  ;;
+       test2)
+       //statements  ;;
+    esac
+29. echo " $1 $2 " //positional parameter
+30. ${#VARNAME}   //Length of argument
+31. function name(){
+     //statements
+    }
+32. ARRAY=( A B C )
+    echo ${ARRAY[0]] == A
+33. ARRAY[*] ARRAY[@] difference
+34. find /home/novice/ -name "*.tcl"     //find all the files with extension tcl at home location
+35. find ./ -user vikash -iname "*.txt"  //find all the changes made by user novice ignoring the textcase in txt files
+
+

@@ -1,0 +1,22 @@
+#! /usr/bin/env bash
+
+#enable 'extglob' shell option
+
+shopt -s extglob
+
+#read user's favourite planet
+echo -n "Enter your favourite planet: "
+read USER_PLANET
+
+case "$USER_PLANET" in
+	#match exactly earth
+	Earth)
+	  echo "Earth is where we live.";;
+	Mars)
+		echo "Mars is where we will go someday.";;
+	*)
+		echo " I need more info of this planet.";;
+esac
+
+
+	

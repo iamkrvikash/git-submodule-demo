@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+#Concatenate two strings
+
+NUMBER=1
+NUMBER+=2   #1+2=12
+NUMBER+=$NUMBER  #1212
+echo $NUMBER

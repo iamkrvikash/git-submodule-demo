@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+MESSAGE="this is text * "
+echo $MESSAGE
+echo "$MESSAGE"
+

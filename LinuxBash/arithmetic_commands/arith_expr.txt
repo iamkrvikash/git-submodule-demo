@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+expr 1 + 1
+
+RESULT=$(expr 3 \* 5)
+echo $RESULT

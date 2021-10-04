@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+for word in "Hello" "world"
+do
+	echo $word
+done

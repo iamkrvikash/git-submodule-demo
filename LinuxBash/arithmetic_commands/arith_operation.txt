@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+NUMBER=1
+let RESULT="++NUMBER"
+echo $RESULT
+echo $NUMBER
+
+NUM=5 #5
+let NUM-=2
+let NUM*=2
+let NUM/=3
+
+echo $NUM

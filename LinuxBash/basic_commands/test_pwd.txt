@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+PWD=$(pwd)
+BASH_VERSION=`bash --version`
+echo $PWD
+echo $BASH_VERSION

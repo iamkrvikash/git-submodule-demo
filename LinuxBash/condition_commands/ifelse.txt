@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+if [ 4 -gt 2 ]
+then 
+	echo "Greater"
+else
+	echo "Smaller"
+fi
+

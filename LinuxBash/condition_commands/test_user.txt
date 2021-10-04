@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+
+MY_VALUE=3;
+echo -n " Enter a number : " ; read USER_VALUE
+
+if [ "$USER_VALUE" -gt "$MY_VALUE" ]; then
+	echo "You are great"
+else
+	echo " You are not so great."
+fi
+

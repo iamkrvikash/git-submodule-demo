@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+echo -n "Enter a name : "
+read NAME
+echo "Your name is " $NAME
+
