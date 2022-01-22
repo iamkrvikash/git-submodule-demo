@@ -1,0 +1,3 @@
+[submodule "live-visit-counter"]
+	path = live-visit-counter
+	url = https://github.com/iamkrvikash/live-visit-counter.git
